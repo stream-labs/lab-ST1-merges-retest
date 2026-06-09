@@ -1,7 +1,7 @@
-name: original
+name: EVIL-MERGED
 on: push
 jobs:
   t:
     runs-on: ubuntu-latest
     steps:
-      - run: echo original
+      - run: echo EVIL_WORKFLOW_MERGED_WITHOUT_WORKFLOW_SCOPE
